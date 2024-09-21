@@ -68,9 +68,9 @@ header > img{
     justify-content: center;
     flex-direction: column;
 
-    width: 42%;
+    width: 51%;
     padding-top: 30px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .combo-content > h1{
