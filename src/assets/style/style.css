@@ -1,0 +1,278 @@
+body{
+    background-color: var(--fundo);
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 600px;
+
+    margin: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--branco);
+}
+
+header > img{
+    width: 140px;
+    height: 100%;
+}
+
+.entrar{
+    width: 120px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 15px;
+    font-size: 15px; 
+
+    background-color: var(--azul);
+    color: var(--branco);
+
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.entrar:hover{
+    background-color: var(--fundo);
+    border: 1px solid var(--azul);
+    color: #fff;
+}
+
+.assinar{
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 15px; 
+
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.assinar:hover{
+    background-color: var(--fundo);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.combo-container{
+    display: flex;
+    background-image: url(../img/Background.svg);
+    width: 100%;
+    height: 600px;
+}
+
+.combo-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 42%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.combo-content > h1{
+    display: flex;
+    text-align: center;
+    
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--branco);
+
+    margin-bottom: 30px;
+}
+
+.combo-content > p{
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.combo-content > img{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.preço{
+    width: 512px;
+    height: 56px;
+    
+    background: var(--azul);
+    border-radius: 8px;
+
+    color: var(--branco);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.preço:hover{
+    background-color: transparent;
+    border: 1px solid var(--azul);
+}
+
+.alura{
+    width: 512px;
+    height: 56px;
+    
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--branco);
+
+    color: var(--branco);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.alura:hover{
+    background-color: transparent;
+    color: var(--azul);
+    border: 1px solid var(--azul);
+}
+
+.assitir-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 80px;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+.text-content > h1{
+    color: var(--branco);
+    
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.text-content > p{
+    color: var(--branco-claro);
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.telas-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+    margin-top: 150px;
+}
+
+.text{
+    width: 500px;
+}
+
+.text > p{
+    color: var(--branco-claro);
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.8;
+
+    margin-bottom: 18px;
+}
+
+.text > button{
+    width: 163px;
+    height: 56px;
+    
+    background: var(--azul);
+    color: var(--branco);
+    border-radius: 8px;
+
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.text > button:hover{
+    background-color: transparent;
+    border: 1px solid var(--azul);
+}
+
+.baixar-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 200px;
+}
+
+.dispositivos-container > h1{
+font-weight: 700;
+font-size: 48px;
+text-align: center;
+
+color: var(--branco);
+
+margin-top: 200px;
+margin-bottom: 45px;
+}
+
+.dispositivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item > p{
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 32px;
+
+    margin-top: 20px;
+}
+
+.item{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 150px;
+}
+
+footer > img{
+    margin-bottom: 40px;
+}
+
+footer > ul{
+    display: flex;
+    gap: 16px;
+    color: var(--branco);
+
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer > p{
+    text-align: center;
+    color: var(--cinza);
+    width: 85%;
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-bottom: 100px;
+}
+
