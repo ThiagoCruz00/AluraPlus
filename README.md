@@ -1,6 +1,6 @@
 # AluraPlus 🌟
 
-Estou animado em compartilhar meu mais recente projeto no GitHub: **AluraPlus**! 🎉
+Estou animado em compartilhar meu mais recente projeto: **AluraPlus**! 🎉
 
 Como parte do meu aprendizado na Alura, desenvolvi um site simples inspirado em plataformas de streaming, utilizando HTML e CSS. O AluraPlus foi criado para ser uma experiência visual intuitiva, com foco em um design limpo e funcional.
 
