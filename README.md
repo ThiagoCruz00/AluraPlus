@@ -1,13 +1,12 @@
 # AluraPlus 🌟
 
-Estou animado em compartilhar meu mais recente projeto: **AluraPlus**! 🎉
+Estou animado em compartilhar meu mais recente projeto: **AluraPlus!** 🎉
 
-Como parte do meu aprendizado na Alura, desenvolvi um site simples inspirado em plataformas de streaming, utilizando HTML e CSS. O AluraPlus foi criado para ser uma experiência visual intuitiva, com foco em um design limpo e funcional.
+Como parte do meu aprendizado na Alura, desenvolvi um site simples inspirado em plataformas de streaming, utilizando **HTML** e **CSS**. O AluraPlus foi criado para ser uma experiência visual intuitiva, com foco em um design limpo, funcional e **responsivo**.
 
 ## O que aprendi:
-
-- **HTML**: Estruturei o conteúdo para garantir uma navegação fluida.
-- **CSS**: Trabalhei no design para criar uma interface atraente e agradável.
+- **HTML:** Estruturei o conteúdo para garantir uma navegação fluida.
+- **CSS:** Trabalhei no design para criar uma interface atraente e agradável, adaptando-a a diferentes dispositivos.
 
 Cada etapa do desenvolvimento foi um aprendizado valioso, e ver a ideia se concretizar foi extremamente gratificante. 💻✨
 
