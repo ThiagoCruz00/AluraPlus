@@ -276,3 +276,184 @@ footer > p{
     margin-bottom: 100px;
 }
 
+@media screen and (max-width: 600px){
+    header{
+        margin: 20px;
+        gap: 30px;
+    }
+
+    .botões{
+        display: flex;
+    }
+
+    .entrar{
+        margin-right: 10px;
+        width: 80px;
+
+        background-color: var(--azul);
+        color: var(--branco);
+
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    .entrar:hover{
+        background-color: var(--fundo);
+        border: 1px solid var(--azul);
+        color: #fff;
+    }
+
+    .assinar{
+        width: 115px;
+
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .assinar:hover{
+        background-color: var(--fundo);
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+    .combo-container{
+        background-image: none;
+    }
+
+    .combo-content{
+        width: 90%;
+
+        padding: 0;
+        padding-left: 38px;
+    }
+
+    .combo-content > img{
+        width: 90%;
+    }
+
+    .preço {
+        width: 300px;
+        height: 56px;
+        border-radius: 8px;
+        font-size: 16px;
+
+        background: var(--azul);
+        color: var(--branco);
+
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    .preço:hover {
+        background-color: transparent;
+        border: 1px solid var(--azul);
+    }
+
+    .alura {
+        width: 300px;
+        height: 56px;
+        border-radius: 8px;
+        font-size: 16px;
+
+        background: transparent;
+        border: 1px solid var(--branco);
+        color: var(--branco);
+
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .combo-content > p {
+        color: var(--cinza);
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .assitir-content{
+        flex-direction: column;
+        gap: 0;
+        justify-content: unset;
+
+        margin-top: 20px;
+    }
+
+    .assitir-content > img{
+        width: 70%;
+    }
+    
+    .text-content{
+        text-align: center;
+        width: 81%;
+    }
+
+    .text-content > h1{
+        font-size: 32px;
+    }
+
+    .telas-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+        gap: 0px;
+        margin-top: 150px;
+    }
+
+    .text{
+        width: 80%;
+        text-align: center;
+    }
+
+    .text > button{
+        margin-bottom: 30px;
+    }
+
+    .telas-container > img{
+        width: 80%;
+    }
+
+    .baixar-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+        gap: 0px;
+        margin-top: 150px;
+    }
+
+    .baixar-content > img{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .dispositivos-container > h1 {
+        font-weight: 700;
+        font-size: 34px;
+        text-align: center;
+        color: var(--branco);
+        margin-top: 200px;
+        margin-bottom: 45px;
+    }
+
+    .dispositivos{
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+
+    footer > ul {
+        display: grid;  
+        grid-template-columns: repeat(2, 1fr);
+        gap: 17px;
+        color: var(--branco);
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
